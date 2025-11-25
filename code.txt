@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="side">
+            <div class="profilea">
+                <p class="admin cm">ADMIN</p>
+                <div>
+                    <img width="60" height="60" src="https://img.icons8.com/fluency-systems-filled/48/FFFFFF/user-male-circle.png" alt="user-male-circle"/>
+
+                </div>
+                <h2 class="cm name">Sirigiri SaiPramod</h2>
+               <div class="edita"> 
+                    <h6 class="edit-profile" style="display: inline;">EDIT PROFILE</h6>
+                    <img class="penicons" width="15" height="15" src="https://img.icons8.com/fluency-systems-filled/48/FFFFFF/calligraphy-brush.png" alt="calligraphy-brush"/>
+                    <!-- <div class="cm">
+                        <img class="penicons" width="15" height="15" src="https://img.icons8.com/fluency-systems-filled/48/FFFFFF/calligraphy-brush.png" alt="calligraphy-brush"/>
+                    </div> -->
+                </div>
+            </div>
+            <div class="menu">
+                <div class="menuCard">
+                    <img width="15" height="15" src="https://img.icons8.com/fluency-systems-filled/48/FFFFFF/dashboard.png" alt="dashboard"/>
+                    <div>
+                        <h6>DASHBOARD</h6>
+                    </div>
+                </div>
+                  <div class="menuCard">
+                    <img width="15" height="15" src="https://img.icons8.com/fluency-systems-filled/48/FFFFFF/event-accepted.png" alt="event-accepted"/>
+
+                    <div>
+                        <h6>EVENTS</h6>
+                    </div>
+                </div>
+                  <div class="menuCard">
+                    <img width="15" height="15" src="https://img.icons8.com/fluency-systems-filled/48/FFFFFF/add-administrator.png" alt="add-administrator"/>
+
+                    <div>
+                        <h6>ADD MEMBER</h6>
+                    </div>
+                </div>
+                  <div class="menuCard">
+                   <img width="15" height="15" src="https://img.icons8.com/fluency-systems-filled/48/FFFFFF/group2.png" alt="group2"/>
+                    <div>
+                        <h6>MATRIMONY</h6>
+                    </div>
+                </div>
+                  <div class="menuCard">
+                    <img width="15" height="15" src="https://img.icons8.com/fluency-systems-filled/48/FFFFFF/community-grants.png" alt="community-grants"/>
+
+                    <div>
+                        <h6>DONATION</h6>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="main">
+            <div class="header">
+                <img class="menubar" width="25" height="25" src="https://img.icons8.com/fluency-systems-filled/48/4D4D4D/menu.png" alt="menu"/>
+
+                 <div class="searchContainer">
+                    <img class="searchicon" src="https://img.icons8.com/ios-filled/50/search.png">
+                    <input type="text" class="searchinput" placeholder="Search...">
+
+                </div>
+
+                <div class="addfriend">
+                    <img width="24" height="24" src="https://img.icons8.com/fluency-systems-filled/48/4D4D4D/conference-call.png" alt="conference-call"/>
+                    <img width="24" height="24" src="https://img.icons8.com/fluency-systems-filled/48/4D4D4D/appointment-reminders.png" alt="appointment-reminders"/>
+                    <div>
+                    <button class="btn">SIGNOUT</button>
+                </div>
+
+                </div>
+                
+            </div>
+            <h3 style="text-align: left; padding-left: 10px; margin-bottom: 15px;">Top Donations</h3>
+            <div class="cards">
+                
+                <div class="donationcards">
+                    
+                    <div class="dc">
+                        <img style="margin: 8px;" class="profilepic" src="assets\girlceo.jpg" alt="monika hetz">
+                        <h4>
+                            Monika hetz
+                        </h4>
+                        <p style="color: gray; font-size: 10px; margin: 8px;">Bangalore</p>
+                        <h2>
+                            <span style="color: red;">
+                                4000
+                            </span>
+                        </h2>
+                        <p style="color: gray; font-size: 10px; margin: 8px;">DONATION</p>
+                    </div>
+                    <div class="dc">
+                        <img style="margin: 8px;" class="profilepic" src="assets\amazon.jpg" alt="monika hetz">
+                        <h4>
+                            Amazon CEO
+                        </h4>
+                        <p style="color: gray; font-size: 10px; margin: 8px;">Bangalore</p>
+                        <h2>
+                            <span style="color: red;">
+                                4000
+                            </span>
+                        </h2>
+                        <p style="color: gray; font-size: 10px; margin: 8px;">DONATION</p>
+                    </div>
+                    <div class="dc">
+                        <img style="margin: 8px;" class="profilepic" src="assets\fb.webp" alt="monika hetz">
+                        <h4>
+                            Facebook CEO
+                        </h4>
+                        <p style="color: gray; font-size: 10px; margin: 8px;">Bangalore</p>
+                        <h2>
+                            <span style="color: red;">
+                                4000
+                            </span>
+                        </h2>
+                        <p style="color: gray; font-size: 10px; margin: 8px;">DONATION</p>
+                    </div>
+                    
+
+                </div>
+                <div class="tdh">
+                    
+                    <div class="totalDonations">
+                    <h3 class="r1" style="text-align: left; margin-bottom: 15px;">Top Donations</h3>
+                    <div class="tcard t1" style="position: relative;" >
+                        <img width="30" height="30" style="position: absolute;right: 0; border-radius: 50%; margin-right: -15px; background-color: white;"        src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/external-donation-finance-kiranshastry-lineal-kiranshastry.png" alt="external-donation-finance-kiranshastry-lineal-kiranshastry"/>
+                        <h4 style="color: white;">ALL TIME</h4>
+                        <h1 style="color: white;">$ 6090000</h1>
+                       
+                    </div>
+                    <div class="tcard t2" style="position: relative;">
+                        <img width="30" height="30" style="position: absolute;right: 0; border-radius: 50%; margin-right: -15px; background-color: white;"        src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/external-donation-finance-kiranshastry-lineal-kiranshastry.png" alt="external-donation-finance-kiranshastry-lineal-kiranshastry"/>
+                        <h4 style="color: white;">ALL TIME</h4>
+                        <h1 style="color: white;">$ 6090000</h1>
+                    </div>
+                </div>
+                
+            </div>
+            </div>
+
+
+            <div class="bottom">
+                <div class="news">
+                    <h4 style="text-align: left; padding-left: 15px;">News</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                            <th>Title</th>
+                            <th>Date</th>
+                            <th>Headline</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>CAREFEST 2013</td>
+                                <td>18/08/2013</td>
+                                <td>7th Annual Family & Friends Night                    
+
+                                </td>
+                                <td>
+                                    <img width="15" height="15" src="https://img.icons8.com/fluency-systems-filled/48/4D4D4D/trash.png" alt="trash"/>
+                                </td>
+                                <td>
+                                     <img width="15" height="15" src="https://img.icons8.com/fluency-systems-filled/48/4D4D4D/calligraphy-brush.png" alt="calligraphy-brush"/>
+                                </td>
+                            </tr>
+                             <tr>
+                                <td>CAREFEST 2014</td>
+                                <td>18/08/2014</td>
+                                <td>8th Annual Family & Friends Night
+                                    
+                                </td>
+                                <td>
+                                    <img width="15" height="15" src="https://img.icons8.com/fluency-systems-filled/48/4D4D4D/trash.png" alt="trash"/>
+                                </td>
+                                <td>
+                                     <img width="15" height="15" src="https://img.icons8.com/fluency-systems-filled/48/4D4D4D/calligraphy-brush.png" alt="calligraphy-brush"/>
+                                </td>
+                            </tr>
+                             <tr>
+                                <td>CAREFEST 2015</td>
+                                <td>18/08/2014</td>
+                                <td>9th Annual Family & Friends Night
+                                   
+                                </td>
+                                 <td>
+                                    <img width="15" height="15" src="https://img.icons8.com/fluency-systems-filled/48/4D4D4D/trash.png" alt="trash"/>
+                                </td>
+                                <td>
+                                     <img width="15" height="15" src="https://img.icons8.com/fluency-systems-filled/48/4D4D4D/calligraphy-brush.png" alt="calligraphy-brush"/>
+                                </td>
+                            </tr>
+                             <tr>
+                                <td>CAREFEST 2016</td>
+                                <td>18/08/2014</td>
+                                <td>10th Annual Family & Friends Night
+                                    
+                                </td>
+                                 <td>
+                                    <img width="15" height="15" src="https://img.icons8.com/fluency-systems-filled/48/4D4D4D/trash.png" alt="trash"/>
+                                </td>
+                                <td>
+                                     <img width="15" height="15" src="https://img.icons8.com/fluency-systems-filled/48/4D4D4D/calligraphy-brush.png" alt="calligraphy-brush"/>
+                                </td>
+                            </tr>
+                             <tr>
+                                <td>CAREFEST 2014</td>
+                                <td>18/08/2014</td>
+                                <td>8th Annual Family & Friends Night
+
+                                </td>
+                                 <td>
+                                    <img width="15" height="15" src="https://img.icons8.com/fluency-systems-filled/48/4D4D4D/trash.png" alt="trash"/>
+                                </td>
+                                <td>
+                                     <img width="15" height="15" src="https://img.icons8.com/fluency-systems-filled/48/4D4D4D/calligraphy-brush.png" alt="calligraphy-brush"/>
+                                </td>
+                            </tr>
+                             <tr>
+                                <td>CAREFEST 2014</td>
+                                <td>18/08/2014</td>
+                                <td>8th Annual Family & Friends Night
+                                    
+
+                                </td>
+                                 <td>
+                                    <img width="15" height="15" src="https://img.icons8.com/fluency-systems-filled/48/4D4D4D/trash.png" alt="trash"/>
+                                </td>
+                                <td>
+                                     <img width="15" height="15" src="https://img.icons8.com/fluency-systems-filled/48/4D4D4D/calligraphy-brush.png" alt="calligraphy-brush"/>
+                                </td>
+                            </tr> 
+
+                        </tbody>
+                    </table>
+                </div>
+                <div class="postnews">
+                    <h4 style="text-align: left; padding-left: 15px;">Post News</h4>
+                    <div class="postcard">
+                        <form class="pc">
+                        <input class="in" type="text" placeholder="Title" minlength="40" required>
+                        <input class="in" type="text" placeholder="Headline" minlength="40" required>
+                        <textarea maxlength="40">
+                            
+                        </textarea>
+                        <button type="submit" class="btn2">POST NEWS</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.side{
+    width: 20%;
+    background: rgb(247, 76, 76);
+    height: 100vh;
+    color: white;
+    padding: 12px 10px;
+    text-align: center;
+}
+.main{
+    width: 80%;
+    background: #eee;
+    text-align: center;
+
+}
+.profile{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.btn{
+    border: 2px solid #ffff;
+    padding: 5px;
+}
+.btn:hover{
+    background-color: gray;
+}
+
+.cm{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.name{
+    font-size: 15px;
+}
+.menuCard{
+    display: flex;
+    gap: 5px;
+    padding: 20px 20px;
+}
+.menuCard:hover{
+    background: rgb(137, 70, 70);
+    border-left:5px solid white
+}
+.header{
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+}
+.header input{
+    width: 500px;
+    border:none;
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+    height: 30px;
+}
+.searchContainer {
+    position: relative;
+    width: 350px;
+}
+.searchContainer .searchinput {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    background: transparent;
+    padding: 8px 10px 8px 40px; /* space for icon on right */
+    outline: none;
+    font-size: 14px;
+}
+.searchContainer .searchicon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+.searchicon:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+.addfriend{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.profilepic{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.donationcards{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.dc{
+    width: 240px;
+    box-shadow: 1px 5px 10px rgba(0,0,0,0.1);
+    border: 2px solid #eee;
+    
+}
+.cards{
+    margin: 10px;
+
+}
+.t1{
+    background: red;
+    padding: 15px;
+}
+.menubar,.btn:hover{
+    cursor: pointer;
+}
+.t2{
+    background: goldenrod;
+    padding: 15px;
+}
+.cards{
+    display: flex;
+    gap: 30px;
+}
+table,tr,td,th{
+    padding: 5px;
+    
+}
+table{
+    width: 100%;
+    text-align: left;
+    
+}
+th{
+    text-decoration: underline;
+}
+.pc{
+    display: flex;
+    flex-direction: column;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+}
+.bottom{
+    display: grid;
+    grid-template-columns:2fr 1fr;
+    gap: 10px;
+}
+.pc input{
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+.pc input:focus{
+    border-bottom: 3px solid red;
+
+}
+.btn2{
+    color: white ;
+    background: red;
+    width: 100px;
+    height: 30px;
+    align-self: flex-end;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+  
+}
+.postcard{
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);  
+}
+.totalDonations{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.in,textarea{
+    margin: 10px;
+}
+.news{
+    overflow-y: auto;
+    max-height: 250px;
+}
+.btn2:hover{
+    background: orange;
+}
+.menubar{
+    display: none;
+}
+.r1{
+    display: none;
+}
+.btn2{
+    margin-top: 10px;
+}
+@media screen and (max-width:768px) {
+    .dc{
+        width: 100%;
+    }
+    .searchicon{
+    display:inline;
+    }
+    .searchinput{
+        display: none;
+    }
+    .side{
+        display: none;
+    }
+    .main{
+        width: 100%;
+    }
+    .menubar{
+        display: inline;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .bottom{
+        display: flex;
+        flex-direction: column;
+    }
+    .r1{
+        display: inline;
+    }
+}
+@media screen and (max-width:1050px) {
+    
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .bottom{
+        display: flex;
+        flex-direction: column;
+    }
+    .searchinput{
+        display: none;
+    }
+    .main{
+        width: 100%;
+    }
+    .edit{
+        padding-left: 10px;
+    }
+    .penicons{
+        display: none;
+    }
+}
+
+@media screen and (max-width:974px) {
+    .dc{
+        width: 100%;
+    }
+    .header{
+    justify-content: space-between;
+}
+}
